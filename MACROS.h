@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 
 #define speed() ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-#define foreachrev(i,t) for(typeof(t.begin()) i = t.rbegin(); i!=t.rend(); i++)
+#define foreachrev(i,t) for(typeof(t.rbegin()) i = t.rbegin(); i!=t.rend(); i++)
 #define foreach(i,t) for(typeof(t.begin()) i = t.begin(); i!=t.end(); i++)
 #define fo(i, start, end)  for(i = start; i <= end; i++)
 #define fro(i, start, end) for(i = start; i >= end; i--)
